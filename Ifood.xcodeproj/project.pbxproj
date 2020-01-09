@@ -12,6 +12,7 @@
 		BB14D26123C6A8DD0038A3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB14D25F23C6A8DD0038A3CD /* Main.storyboard */; };
 		BB14D26323C6A8DE0038A3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB14D26223C6A8DE0038A3CD /* Assets.xcassets */; };
 		BB14D26623C6A8DE0038A3CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB14D26423C6A8DE0038A3CD /* LaunchScreen.storyboard */; };
+		BB14D26E23C6AA750038A3CD /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14D26D23C6AA750038A3CD /* BaseTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BB14D26223C6A8DE0038A3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB14D26523C6A8DE0038A3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB14D26723C6A8DE0038A3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB14D26D23C6AA750038A3CD /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		BB14D25A23C6A8DD0038A3CD /* Ifood */ = {
 			isa = PBXGroup;
 			children = (
+				BB14D26D23C6AA750038A3CD /* BaseTabBarController.swift */,
 				BB14D25B23C6A8DD0038A3CD /* AppDelegate.swift */,
 				BB14D25D23C6A8DD0038A3CD /* ViewController.swift */,
 				BB14D25F23C6A8DD0038A3CD /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				BB14D25E23C6A8DD0038A3CD /* ViewController.swift in Sources */,
 				BB14D25C23C6A8DD0038A3CD /* AppDelegate.swift in Sources */,
+				BB14D26E23C6AA750038A3CD /* BaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
